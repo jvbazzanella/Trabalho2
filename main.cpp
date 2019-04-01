@@ -148,6 +148,7 @@ while (i!=1){
     }
     break;
   }
+    break;
 
 //faz a inserção de um veiculo
     case 4:

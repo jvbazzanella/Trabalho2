@@ -40,8 +40,10 @@ void Hash::insertItem(Veiculo veiculo)
 
 void Hash::deleteItem(Veiculo veiculo)
 {
+  cout << "teste" << endl;
  int location= veiculo.getHash(MAX_ITEMS);
  delete cadastro[location];
+ cadastro[location]=NULL;
  length--;
 }
 
