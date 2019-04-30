@@ -72,7 +72,7 @@ while (i!=1){
       aut1.setPotencia(pot);
       aut1.setCapacidade(cap);
       aut1.setPlaca(pla);
-
+      h.enqueue(aut1);
     lista.retrieveItem(aut1,t);
 
     if (t==true){
@@ -105,8 +105,8 @@ while (i!=1){
         aut2.setCapacidade(cap);
         aut2.setPlaca(pla);
         aut2.setTipo(tip);
-
-      lista.retrieveItem(aut2,t);
+        h.enqueue(aut2)
+        lista.retrieveItem(aut2,t);
 
       if (t==true){
         lista.deleteItem(aut2);
@@ -138,8 +138,8 @@ while (i!=1){
       aut3.setCapacidade(cap);
       aut3.setPlaca(pla);
       aut3.setCap_carga(capc);
-
-    lista.retrieveItem(aut3,t);
+      h.enqueue(aut3);
+      lista.retrieveItem(aut3,t);
 
     if (t==true){
       lista.deleteItem(aut3);
